@@ -19,12 +19,18 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
+    vendor/xiaomi/sm6250-common/proprietary/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/xiaomi/sm6250-common/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
+    vendor/xiaomi/sm6250-common/proprietary/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/xiaomi/sm6250-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/sm6250-common/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/sm6250-common/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/sm6250-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/sm6250-common/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
+    vendor/xiaomi/sm6250-common/proprietary/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.4-external.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/sm6250-common/proprietary/lib/libdisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdisplayconfig.so \
     vendor/xiaomi/sm6250-common/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
@@ -47,6 +53,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm6250-common/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/xiaomi/sm6250-common/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/xiaomi/sm6250-common/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.camera.provider@2.4-external.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.camera.provider@2.4-legacy.so \
+    vendor/xiaomi/sm6250-common/proprietary/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/sm6250-common/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/xiaomi/sm6250-common/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
     vendor/xiaomi/sm6250-common/proprietary/lib64/libdisplayconfig.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdisplayconfig.so \
